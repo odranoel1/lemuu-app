@@ -74,4 +74,28 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /**
+    CSS Variables Customize
+  **/
+
+  /** Default **/
+  --ion-color-default: #181818;
+  --ion-color-default-rgb: 24,24,24;
+  --ion-color-default-contrast: #ffffff;
+  --ion-color-default-contrast-rgb: 255,255,255;
+  --ion-color-default-shade: #151515;
+  --ion-color-default-tint: #2f2f2f;
+
+  /** Simple Colors **/
+  --ion-color-white: #ffffff;
+}
+
+.ion-color-default {
+  --ion-color-base: #181818;
+  --ion-color-base-rgb: 24,24,24;
+  --ion-color-base-contrast: #ffffff;
+  --ion-color-base-contrast-rgb: 255,255,255;
+  --ion-color-base-shade: #151515;
+  --ion-color-base-tint: #2f2f2f;
 }

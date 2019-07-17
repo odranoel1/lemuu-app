@@ -1,0 +1,9 @@
+.header {
+  padding: 10px 0;
+  --ion-toolbar-background: var(--ion-color-default);
+  background-color: var(--ion-toolbar-background);
+  ion-buttons, ion-title {
+    --ion-toolbar-color: var(--ion-color-white);
+    color: var(--ion-toolbar-color);
+  }
+}
