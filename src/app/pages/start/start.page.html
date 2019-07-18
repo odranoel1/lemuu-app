@@ -1,11 +1,11 @@
-<app-header title="Logo Lemuu" isImage="true"></app-header>
+<app-header image="true" notification="true"></app-header>
 
 <ion-content>
   <ion-grid no-padding>
     <ion-row>
       <ion-col no-padding>
         <ion-img src="/assets/img/03-Lemuu-inicio.jpg"></ion-img>
-        <ion-list lines="full">
+        <ion-list lines="full" no-padding>
           <ion-item *ngFor='let view of views' [routerLink]="view.redirectTo" mode="md" lines="none">
             <ion-label>
               {{view.name}}

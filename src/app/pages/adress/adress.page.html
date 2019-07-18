@@ -1,36 +1,36 @@
-<app-header title="NUEVA DIRECCIÓN"></app-header>
+<app-header title="NUEVA DIRECCIÓN" text="true" notification="true"></app-header>
 
 <ion-content>
   <ion-grid>
     <ion-row>
       <ion-col>
-        <form action="">
+        <form action="" class="adress-form">
           <ion-list class="list-form">
             <ion-item lines="none">
               <ion-img src="/assets/img/09-Lemuu-Direcciones.jpg" class="img-default"></ion-img>
             </ion-item>
-            <ion-item>
-              <ion-label position="stacked">Nombre del domicilio</ion-label>
+            <ion-item lines="none" class="item-no-padding">
+              <ion-label position="stacked" mode="ios">Nombre del domicilio</ion-label>
               <ion-input required type="text"></ion-input>
             </ion-item>
-            <ion-item>
-              <ion-label position="stacked">Calle</ion-label>
+            <ion-item lines="none" class="item-no-padding">
+              <ion-label position="stacked" mode="ios">Calle</ion-label>
               <ion-input required type="text"></ion-input>
             </ion-item>
-            <ion-item>
-              <ion-label position="stacked">No. Exterior</ion-label>
+            <ion-item lines="none" class="item-no-padding">
+              <ion-label position="stacked" mode="ios">No. Exterior</ion-label>
               <ion-input required type="text"></ion-input>
             </ion-item>
-            <ion-item>
-              <ion-label position="stacked">Colonia</ion-label>
+            <ion-item lines="none" class="item-no-padding">
+              <ion-label position="stacked" mode="ios">Colonia</ion-label>
               <ion-input required type="text"></ion-input>
             </ion-item>
-            <ion-item>
-              <ion-label position="stacked">Código postal</ion-label>
+            <ion-item lines="none" class="item-no-padding">
+              <ion-label position="stacked" mode="ios">Código postal</ion-label>
               <ion-input required type="text"></ion-input>
             </ion-item>
           </ion-list>
-          <ion-button expand="full" type="submit" color="default">GUARDAR CAMBIOS</ion-button>
+          <ion-button type="submit" color="default">GUARDAR CAMBIOS</ion-button>
         </form>
       </ion-col>
     </ion-row>

@@ -1,3 +1,14 @@
+.suggest-form {
+  padding: 20px 40px;
+}
 .comments {
   font-weight: 400;
+  ion-label {
+    margin-bottom: 10px;
+    white-space: normal;
+  }
+}
+ion-textarea {
+  border-radius: 5px;
+  padding: 10px;
 }

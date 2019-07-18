@@ -1,12 +1,29 @@
-.history-item {
-  width: 95%;
-  margin: auto;
+.history {
   border-bottom: 1px solid var(--ion-color-gray);
-  ion-item p {
-    margin: 15px 0;
-  }
-  ion-button {
-    margin-left: 15px;
-    margin-bottom: 20px;
+  .order {
+    margin-left: 30px;
+    margin-right: 24px;
+    ion-item {
+      ion-label {
+        margin-right: 0;
+        h3 {
+          text-transform: uppercase;
+        }
+        p {
+          color: #000;
+          margin: 15px 0;
+        }
+        span {
+          color: var(--ion-color-gray);
+          font-weight: 500;
+        }
+      }
+    }
+    ion-button {
+      margin-bottom: 20px;
+    }
+    ion-item p, ion-button {
+      width: 50%;
+    }
   }
 }

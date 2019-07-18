@@ -2,6 +2,7 @@
   position: absolute;
   top: 50%;
   color: var(--ion-color-white);
+  text-shadow: 2px -1px 2px rgba(94,95,90,0.95);
   ion-label {
     font-size: 1em;
     font-family: 'Montserrat';
@@ -10,13 +11,23 @@
 }
 .buttons {
   margin: 15px 20px;
-}
-.buttons.social {
   .facebook {
     --background: #3c456e;
+    --background-focused: #3c456e;
+    --background-hover: #3c456e;
+    --background-activated: #3c456e;
     margin-bottom: 20px;
   }
   .google {
     --background: #a4342a;
+    --background-focused: #a4342a;
+    --background-hover: #a4342a;
+    --background-activated: #a4342a;
+    --background: #a4342a;
+  }
+  ion-icon {
+    font-size: 1.9em;
+    position: absolute;
+    left: 10px;
   }
 }

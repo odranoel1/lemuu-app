@@ -1,29 +1,29 @@
-<app-header title="SUGERENCIAS"></app-header>
+<app-header title="SUGERENCIAS" text="true" notification="true"></app-header>
 
 <ion-content>
   <ion-grid>
     <ion-row>
       <ion-col>
-        <form action="" padding text-center>
+        <form action="" text-center class="suggest-form">
           <ion-list class="list-form">
-            <ion-item lines="none">
-              <ion-label position="stacked">¿Te pareció sensillo hacer tu pedido?</ion-label>
+            <ion-item lines="none" class="item-no-padding">
+              <ion-label position="stacked" mode="ios">¿Te pareció sencillo hacer tu pedido?</ion-label>
               <ion-input type="text"></ion-input>
             </ion-item>
-            <ion-item lines="none">
-              <ion-label position="stacked">¿Recomendarias nuestro producto?</ion-label>
+            <ion-item lines="none" class="item-no-padding">
+              <ion-label position="stacked" mode="ios">¿Recomendarías nuestro producto?</ion-label>
               <ion-input type="text"></ion-input>
             </ion-item>
-            <ion-item lines="none">
-              <ion-label position="stacked">¿El servicio ha sido de tu agrado?</ion-label>
+            <ion-item lines="none" class="item-no-padding">
+              <ion-label position="stacked" mode="ios">¿El servicio ha sido de tu agrado?</ion-label>
               <ion-input type="text"></ion-input>
             </ion-item>
-            <ion-item lines="none">
-              <ion-label position="stacked" text-wrap class="comments">Compartenos tu opinion, es muy importante para nosotros</ion-label>
+            <ion-item lines="none" class="item-no-padding comments">
+              <ion-label position="stacked" mode="ios">Compartenos tu opinión, es muy importante para nosotros</ion-label>
               <ion-textarea rows="6" cols="20"></ion-textarea>
             </ion-item>
           </ion-list>
-          <ion-button expand="full" routerLink="/profile" type="submit" color="default">ENVIAR</ion-button>
+          <ion-button routerLink="/profile" type="submit" color="default">ENVIAR</ion-button>
         </form>
       </ion-col>
     </ion-row>

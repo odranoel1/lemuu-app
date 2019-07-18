@@ -1,4 +1,4 @@
-<app-header title="NUEVA TARJETA"></app-header>
+<app-header title="NUEVA TARJETA" text="true" notification="true"></app-header>
 
 <ion-content>
   <ion-grid>
@@ -6,10 +6,10 @@
       <ion-col>
         <form action="" text-center class="form-card">
           <ion-list class="list-form">
-            <ion-grid>
+            <ion-grid no-padding>
               <ion-row>
                 <ion-col>
-                  <ion-item lines="none">
+                  <ion-item lines="none" class="item-no-padding">
                     <ion-label position="stacked">Número de tarjeta</ion-label>
                     <ion-input type="text"></ion-input>
                   </ion-item>
@@ -17,13 +17,13 @@
               </ion-row>
               <ion-row>
                 <ion-col size="6">
-                  <ion-item lines="none">
+                  <ion-item lines="none" class="item-no-padding">
                     <ion-label position="stacked" text-wrap>Fecha de expiración</ion-label>
                     <ion-input type="text"></ion-input>
                   </ion-item>
                 </ion-col>
                 <ion-col size="6">
-                  <ion-item lines="none">
+                  <ion-item lines="none" class="item-no-padding">
                     <ion-label position="stacked" text-wrap>Código de seguridad</ion-label>
                     <ion-input type="text"></ion-input>
                   </ion-item>
@@ -31,7 +31,7 @@
               </ion-row>
               <ion-row>
                 <ion-col>
-                  <ion-item lines="none">
+                  <ion-item lines="none" class="item-no-padding">
                     <ion-label position="stacked">Nombre completo</ion-label>
                     <ion-input type="text"></ion-input>
                   </ion-item>
@@ -39,7 +39,7 @@
               </ion-row>
             </ion-grid>
           </ion-list>
-          <ion-button expand="full" type="submit" color="default">AGREGAR</ion-button>
+          <ion-button type="submit" color="default">AGREGAR</ion-button>
         </form>
       </ion-col>
     </ion-row>

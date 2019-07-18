@@ -33,7 +33,17 @@
   background: var(--ion-item-background);
 }
 
+.item-no-padding {
+  --padding-start: 0;
+  --inner-padding-end: 0;
+}
+
 .img-default {
   width: 50%;
-  margin: 15px auto;  
+  margin: 15px auto;
+}
+
+ion-button {
+  --border-radius: 5px;
+  display: block;
 }

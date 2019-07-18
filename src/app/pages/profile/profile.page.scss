@@ -2,8 +2,10 @@ ion-list {
   margin: 20px 40px;
   ion-item {
     border-bottom: 1px solid var(--ion-color-gray);
+    margin-top: 15px;
+    margin-bottom: 40px;
   }
-  ion-item, ion-button {
-    margin: 15px 0;
+  ion-button {
+    margin-bottom: 20px;
   }
 }

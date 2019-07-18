@@ -1,4 +1,4 @@
-<app-header title="PERFIL"></app-header>
+<app-header title="PERFIL" text="true" notification="true"></app-header>
 
 <ion-content>
   <ion-grid>
@@ -7,25 +7,25 @@
         <ion-img src="/assets/img/06-Lemuu-Perfil.jpg" class="img-default"></ion-img>
         <form action="">
           <ion-list>
-            <ion-item lines="none">
+            <ion-item lines="none" mode="ios">
               <ion-icon name="person" slot="start"></ion-icon>
               <ion-input type="text"></ion-input>
             </ion-item>
-            <ion-item lines="none">
+            <ion-item lines="none" mode="ios">
               <ion-icon name="mail" slot="start"></ion-icon>
               <ion-input type="text"></ion-input>
             </ion-item>
-            <ion-item lines="none">
+            <ion-item lines="none" mode="ios">
               <ion-icon name="call" slot="start"></ion-icon>
               <ion-input type="text"></ion-input>
             </ion-item>
-            <ion-item lines="none">
+            <ion-item lines="none" mode="ios">
               <ion-icon name="call" slot="start"></ion-icon>
               <ion-input type="text"></ion-input>
             </ion-item>
-            <ion-button expand="full" type="submit" color="default">GUARDAR CAMBIOS</ion-button>
-            <ion-button expand="full" routerLink="/password" color="default">CAMBIAR CONTRASEÑA</ion-button>
-            <ion-button expand="full" routerLink="/logout" color="default">CERRAR SESIÓN</ion-button>
+            <ion-button type="submit" color="default">GUARDAR CAMBIOS</ion-button>
+            <ion-button routerLink="/password" color="default">CAMBIAR CONTRASEÑA</ion-button>
+            <ion-button routerLink="/logout" color="default">CERRAR SESIÓN</ion-button>
           </ion-list>
         </form>
       </ion-col>

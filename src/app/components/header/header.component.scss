@@ -1,10 +1,16 @@
 .header {
-  padding: 10px 0;
   --ion-toolbar-background: var(--ion-color-default);
   background-color: var(--ion-toolbar-background);
+  ion-toolbar {
+    padding: 5px 0;
+  }
   ion-buttons, ion-title {
     --ion-toolbar-color: var(--ion-color-white);
     color: var(--ion-toolbar-color);
+  }
+  ion-title {
+    padding: 0;
+    font-size: 1.2em;
   }
   .logo {
     width: 120px;

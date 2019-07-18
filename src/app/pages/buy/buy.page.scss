@@ -1,6 +1,7 @@
 .form-buy {
   .buy {
     border-bottom: 2px solid #000;
+    margin-bottom: 15px;
     ion-label {
       display: flex;
       justify-content: space-between;
@@ -14,20 +15,30 @@
       border: 1px solid #000;
       color: var(--ion-color-gray);
       border-radius: 5px;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
     &:nth-child(3) {
-      padding: 15px 0;
+      margin-bottom: 15px;
     }
   }
   .date {
     border-bottom: 2px solid #000;
-    padding-bottom: 15px;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    ion-col:first-child {
+      padding-left: 0;
+    }
+    ion-col:last-child {
+      padding-right: 0;
+    }
     ion-label {
       font-weight: bold;
     }
     ion-datetime {
       border: 1px solid #000;
       border-radius: 5px;
+      margin-top: 10px;
       padding: 10px 0;
       text-align: center;
     }
@@ -43,7 +54,7 @@
       }
       &:nth-child(7), &:nth-child(8) {
         border-top: 1px solid var(--ion-color-gray);
-        font-weight: 600;
+        font-weight: 500;
         font-size: 1.3em;
       }
     }
@@ -58,11 +69,10 @@ ion-item {
 ion-radio-group {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  margin: 10px 0;
   ion-radio {
     margin-right: 5px;
   }
   ion-label {
-    margin-bottom: 0;
+    margin: 0;
   }
 }

@@ -1,11 +1,11 @@
 <ion-header class="header">
-  <ion-toolbar>
-    <ion-buttons slot="start" mode="ios">
+  <ion-toolbar mode="ios">
+    <ion-buttons slot="start">
       <ion-back-button defaultHref="/" text=""></ion-back-button>
     </ion-buttons>
-    <ion-title text-center> {{ title }} </ion-title>
-    <ion-img src="/assets/img/Logo_lemuu_white.svg" class="logo"></ion-img>
-    <div class="notification" slot="end">
+    <ion-title *ngIf="show_title == true" text-center> {{ title }} </ion-title>
+    <ion-img *ngIf="show_picture == true" src="/assets/img/Logo_lemuu_white.svg" class="logo"></ion-img>
+    <div *ngIf="show_notification == true" class="notification" slot="end">
       <ion-icon name="cart"></ion-icon>
       <ion-badge color="dark">5</ion-badge>
     </div>

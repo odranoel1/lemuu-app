@@ -1,22 +1,22 @@
-<app-header title="Ingresa con tu cuenta"></app-header>
+<app-header title="Ingresa con tu cuenta" text="true"></app-header>
 
 <ion-content>
   <ion-grid no-padding>
     <ion-row>
       <ion-col no-padding>
         <ion-img src="/assets/img/02-Lemuu-Producto-Login.jpg"></ion-img>
-        <form action="" padding text-center>
-          <ion-list class="list-form">
-            <ion-item lines="none">
-              <ion-label position="stacked">Correo Electrónico</ion-label>
+        <form action="" text-center class="login-form">
+          <ion-list class="list-form" mode="ios">
+            <ion-item lines="none" class="item-no-padding">
+              <ion-label position="stacked" mode="ios">Correo Electrónico</ion-label>
               <ion-input required type="text"></ion-input>
             </ion-item>
-            <ion-item lines="none">
-              <ion-label position="stacked">Contraseña</ion-label>
+            <ion-item lines="none" class="item-no-padding">
+              <ion-label position="stacked" mode="ios">Contraseña</ion-label>
               <ion-input required type="text"></ion-input>
             </ion-item>
           </ion-list>
-          <ion-button expand="full" routerLink="/footer-tabs" type="submit" color="default">INGRESAR</ion-button>
+          <ion-button routerLink="/footer-tabs" type="submit" color="default">INGRESAR</ion-button>
         </form>
       </ion-col>
     </ion-row>
