@@ -1,9 +1,34 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>profile</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header title="PERFIL"></app-header>
 
 <ion-content>
-
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-img src="/assets/img/06-Lemuu-Perfil.jpg" class="img-default"></ion-img>
+        <form action="">
+          <ion-list>
+            <ion-item lines="none">
+              <ion-icon name="person" slot="start"></ion-icon>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item lines="none">
+              <ion-icon name="mail" slot="start"></ion-icon>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item lines="none">
+              <ion-icon name="call" slot="start"></ion-icon>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item lines="none">
+              <ion-icon name="call" slot="start"></ion-icon>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-button expand="full" type="submit" color="default">GUARDAR CAMBIOS</ion-button>
+            <ion-button expand="full" routerLink="/password" color="default">CAMBIAR CONTRASEÑA</ion-button>
+            <ion-button expand="full" routerLink="/logout" color="default">CERRAR SESIÓN</ion-button>
+          </ion-list>
+        </form>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

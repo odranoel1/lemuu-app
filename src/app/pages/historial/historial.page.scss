@@ -1,0 +1,12 @@
+.history-item {
+  width: 95%;
+  margin: auto;
+  border-bottom: 1px solid var(--ion-color-gray);
+  ion-item p {
+    margin: 15px 0;
+  }
+  ion-button {
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+}

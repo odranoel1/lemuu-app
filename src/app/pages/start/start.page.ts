@@ -10,8 +10,27 @@ export class StartPage implements OnInit {
   views: ListOrder[] = [
     {
       name: 'Lácteos',
-      icon: 'american-football',
-      redirectTo: '/home',
+      redirectTo: '/product',
+    },
+    {
+      name: 'Miel',
+      redirectTo: '/product',
+    },
+    {
+      name: 'Carnes frías',
+      redirectTo: '/product',
+    },
+    {
+      name: 'Huevos',
+      redirectTo: '/product',
+    },
+    {
+      name: 'Carnes',
+      redirectTo: '/product',
+    },
+    {
+      name: 'Cereales y otros',
+      redirectTo: '/product',
     }
   ];
 
@@ -23,7 +42,6 @@ export class StartPage implements OnInit {
 }
 
 interface ListOrder {
-  icon: string,
   name: string,
   redirectTo: string,
 }

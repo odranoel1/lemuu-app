@@ -1,16 +1,19 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>home</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header title="Logo Lemuu" isImage="true"></app-header>
 
 <ion-content>
-  <ion-list>
-    <ion-label *ngFor='let view of views' [routerLink]="view.redirectTo">
-      <ion-label>
-        {{view.name}}
-      </ion-label>
-      <ion-icon slot="end" [name]="view.icon"></ion-icon>
-    </ion-item>
-  </ion-list>
+  <ion-grid no-padding>
+    <ion-row>
+      <ion-col no-padding>
+        <ion-img src="/assets/img/03-Lemuu-inicio.jpg"></ion-img>
+        <ion-list lines="full">
+          <ion-item *ngFor='let view of views' [routerLink]="view.redirectTo" mode="md" lines="none">
+            <ion-label>
+              {{view.name}}
+            </ion-label>
+            <ion-icon name="arrow-forward" mode="ios"></ion-icon>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

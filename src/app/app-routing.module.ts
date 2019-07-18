@@ -17,6 +17,7 @@ const routes: Routes = [
   { path: 'suggest', loadChildren: './pages/suggest/suggest.module#SuggestPageModule' },
   { path: 'adress', loadChildren: './pages/adress/adress.module#AdressPageModule' },
   { path: 'cards', loadChildren: './pages/cards/cards.module#CardsPageModule' },
+  { path: 'footer-tabs', loadChildren: './pages/footer-tabs/footer-tabs.module#FooterTabsPageModule' },
 
 ];
 

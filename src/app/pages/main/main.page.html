@@ -1,9 +1,34 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>main</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-
+  <ion-grid no-padding>
+    <ion-row>
+      <ion-col no-padding>
+        <ion-img src="/assets/img/01-Lemuu-Principal.jpg"></ion-img>
+        <ion-item lines="none" class="transparent title" text-center>
+          <ion-label text-wrap>
+            Los productos más frescos hasta la puerta de tu casa.
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row class="buttons">
+      <ion-col size="6" text-center>
+        <ion-button expand="full" routerLink="/register" color="default">REGÍSTRATE</ion-button>
+      </ion-col>
+      <ion-col size="6" text-center>
+        <ion-button expand="full" routerLink="/login" color="default">INICIAR SESIÓN</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row class="buttons social">
+      <ion-col>
+        <ion-button expand="full" routerLink="/register" class="facebook">
+          <ion-icon name="logo-facebook"></ion-icon>
+          INGRESA CON FACEBOOK
+        </ion-button>
+        <ion-button expand="full" routerLink="/register" class="google">
+          <ion-icon name="logo-google"></ion-icon>
+          INGRESA CON GOOGLE
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

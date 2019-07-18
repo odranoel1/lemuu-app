@@ -1,9 +1,82 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>product-detail</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header></app-header>
 
 <ion-content>
-
+  <ion-grid no-padding>
+    <ion-row>
+      <ion-col no-padding>
+        <ion-img src="/assets/img/04-Lemuu-Producto1.jpg"></ion-img>
+        <form action="" padding text-center class="form-product-detail">
+          <ion-item lines="none" class="transparent">
+            <ion-label>
+              <h1>LECHE ENTERA 1L</h1>
+            </ion-label>
+          </ion-item>
+          <ion-list class="transparent">
+            <ion-item lines="none">
+              <ion-label>$20.00</ion-label>
+            </ion-item>
+            <ion-item lines="none">
+              <ion-label>Price</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+          </ion-list>
+          <ion-item lines="none" class="transparent">
+            <ion-label text-wrap>
+              <p>Leche de vaca entera 100% natural.
+              Ideal para toda la familia, tiene nutrimentos
+              esenciales para mantener huesos y dientes sanos.</p>
+            </ion-label>
+          </ion-item>
+          <ion-button expand="full" routerLink="/profile" type="submit" color="default">AGREGAR</ion-button>
+        </form>
+        <ion-item lines="none" class="title-table" text-center>
+          <ion-label>TABLA NUTRIMENTAL</ion-label>
+        </ion-item>
+        <ion-item class="table">
+          <ion-label>
+            <div class="info">
+              <span>Tamaño de porción</span>
+              <span>0g</span>
+            </div>
+            <div class="info">
+              <span>Cantidad de porción</span>
+              <span>0g</span>
+            </div>
+            <div class="info">
+              <span>Contenido energético</span>
+              <span>0J (0kcal.)</span>
+            </div>
+            <div class="info">
+              <span>Grasas</span>
+              <span>0g</span>
+            </div>
+            <div class="info">
+              <span>Grasas saturadas</span>
+              <span>0g</span>
+            </div>
+            <div class="info">
+              <span>Carbohidratos</span>
+              <span>0g</span>
+            </div>
+            <div class="info">
+              <span>Azúcares</span>
+              <span>0g</span>
+            </div>
+            <div class="info">
+              <span>Fibra dietética</span>
+              <span>0g</span>
+            </div>
+            <div class="info">
+              <span>Proteinas</span>
+              <span>0g</span>
+            </div>
+            <div class="info">
+              <span>Sodio</span>
+              <span>0g</span>
+            </div>
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

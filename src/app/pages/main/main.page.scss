@@ -1,0 +1,22 @@
+.title {
+  position: absolute;
+  top: 50%;
+  color: var(--ion-color-white);
+  ion-label {
+    font-size: 1em;
+    font-family: 'Montserrat';
+    font-weight: 800;
+  }
+}
+.buttons {
+  margin: 15px 20px;
+}
+.buttons.social {
+  .facebook {
+    --background: #3c456e;
+    margin-bottom: 20px;
+  }
+  .google {
+    --background: #a4342a;
+  }
+}

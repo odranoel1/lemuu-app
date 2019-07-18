@@ -1,0 +1,68 @@
+.form-buy {
+  .buy {
+    border-bottom: 2px solid #000;
+    ion-label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      ion-img {
+        width: 30px;
+        margin-left: 60px;
+      }
+    }
+    .coupon {
+      border: 1px solid #000;
+      color: var(--ion-color-gray);
+      border-radius: 5px;
+    }
+    &:nth-child(3) {
+      padding: 15px 0;
+    }
+  }
+  .date {
+    border-bottom: 2px solid #000;
+    padding-bottom: 15px;
+    ion-label {
+      font-weight: bold;
+    }
+    ion-datetime {
+      border: 1px solid #000;
+      border-radius: 5px;
+      padding: 10px 0;
+      text-align: center;
+    }
+  }
+  .cost {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin: 0;
+    span {
+      padding: 10px 0;
+      &:nth-child(2n) {
+        text-align: right;
+      }
+      &:nth-child(7), &:nth-child(8) {
+        border-top: 1px solid var(--ion-color-gray);
+        font-weight: 600;
+        font-size: 1.3em;
+      }
+    }
+  }
+}
+
+ion-item {
+  --padding-start: 0;
+  --inner-padding-end: 0;
+}
+
+ion-radio-group {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin: 10px 0;
+  ion-radio {
+    margin-right: 5px;
+  }
+  ion-label {
+    margin-bottom: 0;
+  }
+}

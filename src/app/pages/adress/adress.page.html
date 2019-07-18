@@ -1,9 +1,39 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>adress</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header title="NUEVA DIRECCIÓN"></app-header>
 
 <ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <form action="">
+          <ion-list class="list-form">
+            <ion-item lines="none">
+              <ion-img src="/assets/img/09-Lemuu-Direcciones.jpg" class="img-default"></ion-img>
+            </ion-item>
+            <ion-item>
+              <ion-label position="stacked">Nombre del domicilio</ion-label>
+              <ion-input required type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="stacked">Calle</ion-label>
+              <ion-input required type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="stacked">No. Exterior</ion-label>
+              <ion-input required type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="stacked">Colonia</ion-label>
+              <ion-input required type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="stacked">Código postal</ion-label>
+              <ion-input required type="text"></ion-input>
+            </ion-item>
+          </ion-list>
+          <ion-button expand="full" type="submit" color="default">GUARDAR CAMBIOS</ion-button>
+        </form>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
 </ion-content>
