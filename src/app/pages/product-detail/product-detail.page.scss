@@ -5,6 +5,14 @@
     margin-bottom: 20px;
     text-align: justify;
   }
+  ion-list {
+    ion-label {
+      font-weight: bold;
+    }
+    ion-input {
+      border: 1px solid #000;
+    }
+  }
 }
 .product-title {
   font-size: 1.3em;
@@ -34,7 +42,7 @@
   }
 }
 
-.form-product-detail, .product-title, .title-table, .table {
+.form-product-detail, .product-title, .title-table, .table, ion-list {
   --background: #f3f3f3;
   background-color: var(--background);
 }

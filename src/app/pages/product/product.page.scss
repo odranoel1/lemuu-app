@@ -4,10 +4,28 @@
   margin-bottom: 10px;
   ion-img {
     border: 1px solid var(--ion-color-gray);
-    margin: 10px;
+    margin: 0 10px 0 0;
+    height: 100%;
   }
   ion-item {
     --padding-start: 0;
     --inner-padding-end: 0;
+  }
+  .info-prod {
+    h3 {
+      font-weight: bold;
+    }
+    p {
+      color: black;
+      font-size: 0.8em;
+      line-height: 15pt;
+      text-align: justify;
+    }
+  }
+  .add-product-form {
+    text-align: center;
+    .btn-prod {
+      --ion-color-base: transparent !important;
+    }
   }
 }

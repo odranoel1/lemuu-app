@@ -1,5 +1,7 @@
 {
   "name": "lemuu",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
