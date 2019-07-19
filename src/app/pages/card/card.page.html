@@ -1,0 +1,27 @@
+<app-header title="Tarjetas" text="true" notification="true"></app-header>
+
+<ion-content>
+  <form action="">
+    <ion-list lines="full" no-padding>
+      <ion-radio-group>
+        <ion-item>
+          <ion-label text-wrap class="card-payment">
+            <ion-icon mode="ios" name="icon-lemuu-paypal"></ion-icon>
+            <h2><b>Samuel Villegas</b></h2>
+            <span>1234</span>
+          </ion-label>
+          <ion-radio slot="end" color="default" checked></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label text-wrap class="card-payment">
+            <ion-icon mode="ios" name="icon-lemuu-paypal"></ion-icon>
+            <h2><b>Raúl Cardona</b></h2>
+            <span>1234</span>
+          </ion-label>
+          <ion-radio slot="end" color="default" ></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+    <ion-button routerLink="/card-details" color="default">AGREGAR TARJETA</ion-button>
+  </form>
+</ion-content>

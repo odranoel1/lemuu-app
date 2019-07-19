@@ -29,12 +29,12 @@ const routes: Routes = [
         loadChildren: '../product/product.module#ProductPageModule'
       },
       {
-        path: 'location',
-        loadChildren: '../map/map.module#MapPageModule'
+        path: 'address',
+        loadChildren: '../address/address.module#AddressPageModule'
       },
       {
         path: 'card',
-        loadChildren: '../cards/cards.module#CardsPageModule'
+        loadChildren: '../card/card.module#CardPageModule'
       }
     ]
   }

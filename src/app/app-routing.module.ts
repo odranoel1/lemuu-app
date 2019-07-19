@@ -15,9 +15,16 @@ const routes: Routes = [
   { path: 'profile', loadChildren: './pages/profile/profile.module#ProfilePageModule' },
   { path: 'historial', loadChildren: './pages/historial/historial.module#HistorialPageModule' },
   { path: 'suggest', loadChildren: './pages/suggest/suggest.module#SuggestPageModule' },
-  { path: 'adress', loadChildren: './pages/adress/adress.module#AdressPageModule' },
-  { path: 'cards', loadChildren: './pages/cards/cards.module#CardsPageModule' },
+  { path: 'address-detail', loadChildren: './pages/address-detail/address-detail.module#AddressDetailPageModule' },
+  { path: 'card-details', loadChildren: './pages/card-details/card-details.module#CardsPageModule' },
   { path: 'footer-tabs', loadChildren: './pages/footer-tabs/footer-tabs.module#FooterTabsPageModule' },
+  { path: 'set-password', loadChildren: './pages/set-password/set-password.module#SetPasswordPageModule' },
+  { path: 'forgot-password', loadChildren: './pages/forgot-password/forgot-password.module#ForgotPasswordPageModule' },
+  { path: 'thanks-recovery-password', loadChildren: './pages/thanks-recovery-password/thanks-recovery-password.module#ThanksRecoveryPasswordPageModule' },
+  { path: 'address', loadChildren: './pages/address/address.module#AddressPageModule' },
+  { path: 'card', loadChildren: './pages/card/card.module#CardPageModule' },
+  { path: 'cart', loadChildren: './pages/cart/cart.module#CartPageModule' },
+  { path: 'confirm-location', loadChildren: './pages/confirm-location/confirm-location.module#ConfirmLocationPageModule' },
 
 ];
 

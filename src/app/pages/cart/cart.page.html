@@ -1,0 +1,84 @@
+<app-header title="CARRITO" text="true" notification="true"></app-header>
+
+<ion-content>
+  <ion-grid>
+    <form action="" padding>
+      <ion-row class="product-item">
+        <ion-col size="6" no-padding>
+          <ion-img src="/assets/img/04-Lemuu-Producto1.jpg" routerLink="/product-detail"></ion-img>
+        </ion-col>
+        <ion-col size="6" no-padding>
+          <ion-item lines="none" class="info-prod">
+            <ion-label text-wrap no-margin>
+              <h3>LECHE ENTERA 1L</h3>
+              <p>Leche de vaca entera 100% natural.
+              Ideal para toda la familia, tiene nutrimentos
+              esenciales para mantener huesos y dientes sanos.</p>
+            </ion-label>
+          </ion-item>
+          <ion-list no-margin mode="ios">
+            <ion-item lines="none" text-center>
+              <ion-label no-padding>$20.00</ion-label>
+              <ion-input type="text" value="5"></ion-input>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+      <ion-row class="product-item">
+        <ion-col size="6" no-padding>
+          <ion-img src="/assets/img/04-Lemuu-Producto1.jpg" routerLink="/product-detail"></ion-img>
+        </ion-col>
+        <ion-col size="6" no-padding>
+          <ion-item lines="none" class="info-prod">
+            <ion-label text-wrap no-margin>
+              <h3>LECHE ENTERA 1L</h3>
+              <p>Leche de vaca entera 100% natural.
+              Ideal para toda la familia, tiene nutrimentos
+              esenciales para mantener huesos y dientes sanos.</p>
+            </ion-label>
+          </ion-item>
+          <ion-list no-margin mode="ios">
+            <ion-item lines="none" text-center>
+              <ion-label no-padding>$20.00</ion-label>
+              <ion-input type="text" value="5"></ion-input>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-list no-margin>
+            <ion-radio-group>
+              <ion-item lines="none">
+                <ion-label>Tengo envases($15)</ion-label>
+                <ion-radio slot="start" color="default" mode="md" checked></ion-radio>
+              </ion-item>
+              <ion-item lines="none">
+                <ion-label>No tengo envases</ion-label>
+                <ion-radio slot="start" color="default" mode="md" ></ion-radio>
+              </ion-item>
+            </ion-radio-group>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <div class="cost">
+            <span>TOTAL</span>
+            <span>$145.00</span>
+          </div>
+          <ion-item>
+            <ion-label text-wrap>
+              Dirección: Unicornio 3866 Colonia Arboledas Gdl. Jal
+            </ion-label>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button color="default" routerLink="/buy">COMPRAR</ion-button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </ion-grid>
+</ion-content>

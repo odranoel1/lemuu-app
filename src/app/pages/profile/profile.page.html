@@ -4,9 +4,14 @@
   <ion-grid>
     <ion-row>
       <ion-col>
-        <ion-img src="/assets/img/06-Lemuu-Perfil.jpg" class="img-default"></ion-img>
         <form action="">
-          <ion-list>
+          <ion-list class="my-2 mx-3">
+            <ion-item lines="none" class="add-picture">
+              <ion-button color="clear">
+                <ion-img src="/assets/img/06-Lemuu-Perfil.jpg"></ion-img>
+                <ion-icon name="add"></ion-icon>
+              </ion-button>
+            </ion-item>
             <ion-item lines="none" mode="ios">
               <ion-icon name="person" slot="start"></ion-icon>
               <ion-input type="text"></ion-input>
@@ -24,7 +29,7 @@
               <ion-input type="text"></ion-input>
             </ion-item>
             <ion-button type="submit" color="default">GUARDAR CAMBIOS</ion-button>
-            <ion-button routerLink="/password" color="default">CAMBIAR CONTRASEÑA</ion-button>
+            <ion-button routerLink="/set-password" color="default">CAMBIAR CONTRASEÑA</ion-button>
             <ion-button routerLink="/logout" color="default">CERRAR SESIÓN</ion-button>
           </ion-list>
         </form>

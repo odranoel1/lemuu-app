@@ -1,0 +1,25 @@
+<app-header title="Direcciones" text="true" notification="true"></app-header>
+
+<ion-content>
+  <form action="">
+    <ion-list lines="full" no-padding>
+      <ion-radio-group>
+        <ion-item>
+          <ion-label text-wrap>
+            <h3>Trabajo</h3>
+            <p>Unicornio 3866 Col.Arboledas, Gdl.</p>
+          </ion-label>
+          <ion-radio slot="end" color="default" checked></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>
+            <h3>Casa</h3>
+            <p>Donato Guerra 2736 Col.Centro, Gdl.</p>
+          </ion-label>
+          <ion-radio slot="end" color="default" ></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+    <ion-button routerLink="/address-detail" color="default">AGREGAR DIRECCIÓN</ion-button>
+  </form>
+</ion-content>

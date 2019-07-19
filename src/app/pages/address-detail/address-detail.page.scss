@@ -1,0 +1,18 @@
+.add-picture {
+  margin: 20px 0;
+  ion-button {
+    height: 100%;
+    margin: 0;
+    ion-img {
+      width: 80%;
+    }
+    ion-icon {
+      position: absolute;
+      top: 80%;
+      left: 73%;
+      background: #000;
+      padding: 10px;
+      border-radius: 10px;
+    }
+  }
+}

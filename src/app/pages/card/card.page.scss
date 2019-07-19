@@ -1,0 +1,23 @@
+ion-label {
+  margin: 20px 0;
+}
+ion-button {
+  position: absolute;
+  top: 88%;
+  left: 20%;
+  right: 20%;
+}
+
+.card-payment {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  ion-icon {
+    height: 100%;
+    width: 80px;
+    margin-right: 10px;
+    grid-row: 1/3;
+  }
+  h3, p {
+    grid-column: 2;
+  }
+}

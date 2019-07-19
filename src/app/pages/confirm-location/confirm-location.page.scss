@@ -1,0 +1,18 @@
+.delivery-man {
+  display: flex;
+  ion-icon {
+    border: 1px solid black;
+    border-radius: 29px;
+    font-size: 2em;
+    margin-right: 10px;
+    padding: 10px;
+  }
+}
+ion-item:nth-child(2) {
+  margin: 15px 0;
+}
+ion-textarea {
+  border: 1px solid var(--ion-color-gray);
+  border-radius: 5px;
+  padding: 10px;
+}

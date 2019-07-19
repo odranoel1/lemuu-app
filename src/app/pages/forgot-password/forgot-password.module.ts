@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
-import { CardsPage } from './cards.page';
+import { ForgotPasswordPage } from './forgot-password.page';
 
 // List of components to use
 import { ComponentsModule } from '../../components/components.module';
@@ -12,7 +12,7 @@ import { ComponentsModule } from '../../components/components.module';
 const routes: Routes = [
   {
     path: '',
-    component: CardsPage
+    component: ForgotPasswordPage
   }
 ];
 
@@ -24,6 +24,6 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     ComponentsModule
   ],
-  declarations: [CardsPage]
+  declarations: [ForgotPasswordPage]
 })
-export class CardsPageModule {}
+export class ForgotPasswordPageModule {}

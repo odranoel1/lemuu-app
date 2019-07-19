@@ -6,7 +6,7 @@
       <ion-col no-padding>
         <ion-img src="/assets/img/03-Lemuu-inicio.jpg"></ion-img>
         <ion-list lines="full" no-padding>
-          <ion-item *ngFor='let view of views' [routerLink]="view.redirectTo" mode="md" lines="none">
+          <ion-item class="category" *ngFor='let view of views' [routerLink]="view.redirectTo" mode="md" lines="none">
             <ion-label>
               {{view.name}}
             </ion-label>

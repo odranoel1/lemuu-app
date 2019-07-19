@@ -11,6 +11,27 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.py-2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.px-4 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.mx-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.mx-3 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
 .list-form {
   ion-item {
     ion-label {

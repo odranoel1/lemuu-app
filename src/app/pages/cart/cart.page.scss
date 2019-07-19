@@ -1,0 +1,40 @@
+ion-item {
+  --padding-start: 0;
+  --inner-padding-end: 0;
+}
+
+.product-item {
+  margin-bottom: 20px;
+  ion-img {
+    border: 1px solid var(--ion-color-gray);
+    margin: 0 10px 0 0;
+    height: 100%;
+  }
+  .info-prod {
+    h3 {
+      font-weight: bold;
+    }
+    p {
+      color: black;
+      font-size: 0.8em;
+      line-height: 15pt;
+      text-align: justify;
+    }
+  }
+}
+
+.cost {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  span {
+    padding: 10px 0;
+    &:nth-child(2) {
+      text-align: right;
+    }
+    &:nth-child(1), &:nth-child(2) {
+      border-top: 1px solid var(--ion-color-gray);
+      font-weight: 500;
+      font-size: 1.3em;
+    }
+  }
+}
