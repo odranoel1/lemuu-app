@@ -1,0 +1,74 @@
+<app-header title="CONFIRMACIÓN" text="true" notification="true"></app-header>
+
+<ion-content>
+  <ion-grid padding>
+    <ion-row>
+      <ion-col>
+        <ion-item class="item-no-padding" lines="none">
+          <ion-label>Productos</ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row class="product-item">
+      <ion-col size="4">
+        <ion-img src="/assets/img/04-Lemuu-Producto1.jpg" routerLink="/product-detail"></ion-img>
+      </ion-col>
+      <ion-col size="8">
+        <ion-item lines="none" class="info-prod">
+          <ion-label text-wrap no-margin>
+            <h3><b>LECHE ENTERA 1L</b></h3>
+            <div class="price">
+              <span>$100.00</span>
+              <span>10 MAR 19</span>
+            </div>
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row class="product-item">
+      <ion-col size="4">
+        <ion-img src="/assets/img/04-Lemuu-Producto1.jpg" routerLink="/product-detail"></ion-img>
+      </ion-col>
+      <ion-col size="8">
+        <ion-item lines="none" class="info-prod">
+          <ion-label text-wrap no-margin>
+            <h3><b>LECHE ENTERA 1L</b></h3>
+            <div class="price">
+              <span>$100.00</span>
+              <span>10 MAR 19</span>
+            </div>
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="cost">
+        <ion-item lines="none">
+          <ion-label text-wrap>
+            <span>04:15pm - 04:15pm</span>
+            <span>Av. Juan Palomar 123</span>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-label class="subtotal">
+            <span>Total de cobro</span>
+            <span>$200.00</span>
+            <span>Métodos de pago</span>
+            <span>1008</span>
+          </ion-label>
+        </ion-item>
+        <ion-item class="total" lines="none">
+          <ion-label>
+            <span>Total de cobro</span>
+            <span>$200.00</span>
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button color="default" routerLink="/suggest">COMPRAR</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

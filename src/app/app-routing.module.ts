@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'splash', pathMatch: 'full' },
+  { path: '', redirectTo: 'welcome', pathMatch: 'full' },
   { path: 'splash', loadChildren: './pages/splash/splash.module#SplashPageModule' },
   { path: 'main', loadChildren: './pages/main/main.module#MainPageModule' },
   { path: 'login', loadChildren: './pages/login/login.module#LoginPageModule' },
@@ -25,7 +25,10 @@ const routes: Routes = [
   { path: 'card', loadChildren: './pages/card/card.module#CardPageModule' },
   { path: 'cart', loadChildren: './pages/cart/cart.module#CartPageModule' },
   { path: 'confirm-location', loadChildren: './pages/confirm-location/confirm-location.module#ConfirmLocationPageModule' },
-
+  { path: 'thanks-product', loadChildren: './pages/thanks-product/thanks-product.module#ThanksProductPageModule' },
+  { path: 'rating', loadChildren: './pages/rating/rating.module#RatingPageModule' },
+  { path: 'order-confirmation', loadChildren: './pages/order-confirmation/order-confirmation.module#OrderConfirmationPageModule' },
+  { path: 'welcome', loadChildren: './pages/welcome/welcome.module#WelcomePageModule' },
 ];
 
 @NgModule({

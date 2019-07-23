@@ -6,14 +6,14 @@
       <ion-col>
         <form action="" padding class="form-buy">
           <ion-list no-margin>
-            <ion-item lines="none" routerLink="/adress" mode="ios" class="buy">
+            <ion-item lines="none" routerLink="/address" mode="ios" class="buy">
               <ion-label>
                 <p>Dirección</p>
                 <span>Unicornio 3866</span>
               </ion-label>
             </ion-item>
             <ion-item lines="none" routerLink="/card" mode="ios" class="buy">
-              <ion-label>
+              <ion-label text-wrap>
                 <p>Métodos de pago</p>
                 <ion-icon mmode="ios" name="icon-lemuu-paypal"></ion-icon>
                 <span>1009</span>
@@ -41,7 +41,8 @@
                   display-format="DD-MMMM-YYYY"
                   cancel-text="Cancelar"
                   done-text="Seleccionar"
-                  (ionChange)="setDate($event)">
+                  (ionChange)="setDate($event)"
+                  month-names="ene, feb, mar, abr, may, jun, jul, ago, sep, oct, nov, dic">
                 </ion-datetime>
               </ion-col>
               <ion-col size="6">
@@ -51,7 +52,8 @@
                   display-format="DD-MMMM-YYYY"
                   cancel-text="Cancelar"
                   done-text="Seleccionar"
-                  (ionChange)="setDate($event)">
+                  (ionChange)="setDate($event)"
+                  month-names="ene, feb, mar, abr, may, jun, jul, ago, sep, oct, nov, dic">
                 </ion-datetime>
               </ion-col>
             </ion-row>

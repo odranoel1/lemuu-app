@@ -3,14 +3,15 @@ ion-list {
     border-bottom: none;
     ion-button {
       height: 100%;
-      margin: 0;
+      width: 200px;
+      margin: auto;
       ion-img {
-        width: 80%;
+        width: 100%;
       }
       ion-icon {
         position: absolute;
         top: 80%;
-        left: 73%;
+        left: 78%;
         background: #000;
         padding: 10px;
         border-radius: 10px;
@@ -19,10 +20,9 @@ ion-list {
   }
   ion-item {
     border-bottom: 1px solid var(--ion-color-gray);
-    margin-top: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
   }
   ion-button {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 }

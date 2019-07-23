@@ -17,7 +17,6 @@ ion-radio-group {
 .form-buy {
   .buy {
     border-bottom: 2px solid #000;
-    margin-bottom: 15px;
     ion-label {
       display: flex;
       justify-content: space-between;
@@ -40,8 +39,7 @@ ion-radio-group {
   }
   .date {
     border-bottom: 2px solid #000;
-    padding: 15px 0;
-    margin-bottom: 15px;
+    padding: 10px 0;
     ion-col:first-child {
       padding-left: 0;
     }
@@ -64,7 +62,7 @@ ion-radio-group {
     grid-template-columns: repeat(2, 50%);
     margin: 0;
     span {
-      padding: 10px 0;
+      padding: 8px 0;
       &:nth-child(2n) {
         text-align: right;
       }
